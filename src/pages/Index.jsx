@@ -62,6 +62,7 @@ const Index = () => {
               borderRadius="md"
               justifyContent="space-between"
               bg={task.completed ? "green.100" : "white"}
+              _dark={{ bg: task.completed ? "green.900" : "gray.700" }}
             >
               <Checkbox
                 isChecked={task.completed}
